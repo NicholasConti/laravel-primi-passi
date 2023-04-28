@@ -7,6 +7,8 @@
 
 <body>
     <h1>HELLO WORLD!</h1>
+    <p>{{$title}}</p>
+    <p>Classe {{$num}}</p>
 </body>
 
 </html>

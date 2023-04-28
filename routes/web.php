@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $data = [
+        'title' => 'Sono stato passato con Blade!!',
+        'num' => 89
+    ];
+
+    return view('home', $data);
 });
